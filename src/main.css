@@ -1,0 +1,150 @@
+:root {
+  --fontColor: #394043;
+  --fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --fontWeight: 300;
+}
+
+/*
+ * Styling for Zazu Theme Playbook
+ * https://github.com/tinytacoteam/zazu-theme-playbook
+ */
+body.playbook {
+  & .github-corner > svg {
+    fill: #24292e;
+    color: #fff;
+  }
+
+  & #install {
+    width: 565px;
+
+    & h2,
+    & p {
+      font-family: var(--fontFamily);
+      font-weight: var(--fontWeight);
+    }
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--fontColor);
+  font-family: var(--fontFamily);
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Preview */
+#preview {
+  border: 0;
+}
+
+/* Main */
+#zazu {
+  -webkit-app-region: drag;
+  background-color: rgba(238, 239, 240, .95);
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 3px;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, .1);
+  cursor: move;
+  max-height: 350px;
+  padding: 15px;
+  width: 640px;
+
+  & input {
+    -webkit-app-region: no-drag;
+    background-color: transparent;
+    border: 0;
+    color: var(--fontColor);
+    font-size: 36px;
+    font-weight: var(--fontWeight);
+    outline: none;
+    padding: 0;
+    width: 100%;
+
+    /* Hide "Search..." placeholder */
+    &::-webkit-input-placeholder {
+      color: transparent;
+    }
+  }
+
+  & div.results {
+    display: flex;
+    flex-direction: row;
+
+    & ul {
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+
+      & li {
+        -webkit-app-region: no-drag;
+        border-top: 1px solid rgba(0, 0, 0, .05);
+        cursor: pointer;
+        height: 60px;
+        padding: 5px;
+        width: 100%;
+
+        &:first-child {
+          margin-top: 15px;
+        }
+
+        &:last-child {
+          border-bottom: 1px solid rgba(0, 0, 0, .05);
+        }
+
+        & .icon {
+          float: left;
+          height: 35px;
+          line-height: 35px;
+          margin-bottom: 7px;
+          margin-right: 10px;
+          margin-top: 7px;
+          text-align: center;
+          width: 35px;
+        }
+
+        & h2,
+        & h3 {
+          font-weight: var(--fontWeight);
+          margin: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        & h2 {
+          color: #888D95;
+          font-size: 24px;
+
+          &:last-child {
+            line-height: 48px;
+          }
+        }
+
+        & h3 {
+          color: #AFB4C0;
+          font-size: 12px;
+        }
+
+        &.active,
+        &:hover {
+          background-color: rgba(243, 244, 245, .3);
+
+          & h2 {
+            color: #596266;
+          }
+
+          & h3 {
+            color: #8B9499;
+          }
+        }
+      }
+    }
+  }
+}

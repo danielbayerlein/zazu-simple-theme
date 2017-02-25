@@ -1,0 +1,133 @@
+/*
+ * Styling for Zazu Theme Playbook
+ * https://github.com/tinytacoteam/zazu-theme-playbook
+ */
+body.playbook {
+}
+body.playbook .github-corner > svg {
+  fill: #24292e;
+  color: #fff;
+}
+body.playbook #install {
+  width: 565px;
+}
+body.playbook #install h2,
+    body.playbook #install p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #394043;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Preview */
+#preview {
+  border: 0;
+}
+
+/* Main */
+#zazu {
+  -webkit-app-region: drag;
+  background-color: rgba(238, 239, 240, .95);
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 3px;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, .1);
+  cursor: move;
+  max-height: 350px;
+  padding: 15px;
+  width: 640px
+}
+#zazu input {
+  -webkit-app-region: no-drag;
+  background-color: transparent;
+  border: 0;
+  color: #394043;
+  font-size: 36px;
+  font-weight: 300;
+  outline: none;
+  padding: 0;
+  width: 100%;/* Hide "Search..." placeholder */
+}
+#zazu input::-webkit-input-placeholder {
+  color: transparent;
+}
+#zazu div.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#zazu div.results ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#zazu div.results ul li {
+  -webkit-app-region: no-drag;
+  border-top: 1px solid rgba(0, 0, 0, .05);
+  cursor: pointer;
+  height: 60px;
+  padding: 5px;
+  width: 100%;
+}
+#zazu div.results ul li:first-child {
+  margin-top: 15px;
+}
+#zazu div.results ul li:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+#zazu div.results ul li .icon {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 7px;
+  margin-right: 10px;
+  margin-top: 7px;
+  text-align: center;
+  width: 35px;
+}
+#zazu div.results ul li h2,
+        #zazu div.results ul li h3 {
+  font-weight: 300;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#zazu div.results ul li h2 {
+  color: #888D95;
+  font-size: 24px;
+}
+#zazu div.results ul li h2:last-child {
+  line-height: 48px;
+}
+#zazu div.results ul li h3 {
+  color: #AFB4C0;
+  font-size: 12px;
+}
+#zazu div.results ul li.active,
+        #zazu div.results ul li:hover {
+  background-color: rgba(243, 244, 245, .3);
+}
+#zazu div.results ul li.active h2, #zazu div.results ul li:hover h2 {
+  color: #596266;
+}
+#zazu div.results ul li.active h3, #zazu div.results ul li:hover h3 {
+  color: #8B9499;
+}
+
+/*# sourceMappingURL=main.css.map */
