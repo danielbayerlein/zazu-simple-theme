@@ -1,0 +1,6 @@
+{
+  "name": "zazu-crystal-theme",
+  "version": "1.0.0",
+  "description": "A crystal theme for Zazu",
+  "stylesheet": "dist/main.css"
+}
