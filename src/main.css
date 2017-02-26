@@ -10,8 +10,8 @@
  */
 body.playbook {
   & .github-corner > svg {
-    fill: #24292e;
     color: #fff;
+    fill: #24292e;
   }
 
   & #install {
@@ -26,8 +26,8 @@ body.playbook {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -46,10 +46,10 @@ body {
 /* Main */
 #zazu {
   -webkit-app-region: drag;
-  background-color: rgba(238, 239, 240, .95);
-  border: 1px solid rgba(0, 0, 0, .2);
+  background-color: rgba(238, 239, 240, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px;
-  box-shadow: 0 0 15px 3px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.1);
   cursor: move;
   max-height: 350px;
   padding: 15px;
@@ -84,7 +84,7 @@ body {
 
       & li {
         -webkit-app-region: no-drag;
-        border-top: 1px solid rgba(0, 0, 0, .05);
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
         cursor: pointer;
         height: 60px;
         padding: 5px;
@@ -95,7 +95,7 @@ body {
         }
 
         &:last-child {
-          border-bottom: 1px solid rgba(0, 0, 0, .05);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         & .icon {
@@ -119,7 +119,7 @@ body {
         }
 
         & h2 {
-          color: #888D95;
+          color: #888d95;
           font-size: 24px;
 
           &:last-child {
@@ -128,20 +128,20 @@ body {
         }
 
         & h3 {
-          color: #AFB4C0;
+          color: #afb4c0;
           font-size: 12px;
         }
 
         &.active,
         &:hover {
-          background-color: rgba(243, 244, 245, .3);
+          background-color: rgba(243, 244, 245, 0.3);
 
           & h2 {
             color: #596266;
           }
 
           & h3 {
-            color: #8B9499;
+            color: #8b9499;
           }
         }
       }
