@@ -5,8 +5,8 @@
 body.playbook {
 }
 body.playbook .github-corner > svg {
-  fill: #24292e;
   color: #fff;
+  fill: #24292e;
 }
 body.playbook #install {
   width: 565px;
@@ -18,8 +18,8 @@ body.playbook #install h2,
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -75,6 +75,10 @@ body {
   margin: 0;
   overflow: hidden;
   padding: 0;
+  width: 50%;
+}
+#zazu div.results ul:last-child {
+  width: 100%;
 }
 #zazu div.results ul li {
   -webkit-app-region: no-drag;
@@ -109,14 +113,14 @@ body {
   white-space: nowrap;
 }
 #zazu div.results ul li h2 {
-  color: #888D95;
+  color: #888d95;
   font-size: 24px;
 }
 #zazu div.results ul li h2:last-child {
   line-height: 48px;
 }
 #zazu div.results ul li h3 {
-  color: #AFB4C0;
+  color: #afb4c0;
   font-size: 12px;
 }
 #zazu div.results ul li.active,
@@ -127,7 +131,7 @@ body {
   color: #596266;
 }
 #zazu div.results ul li.active h3, #zazu div.results ul li:hover h3 {
-  color: #8B9499;
+  color: #8b9499;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -81,6 +81,11 @@ body {
       margin: 0;
       overflow: hidden;
       padding: 0;
+      width: 50%;
+
+      &:last-child {
+        width: 100%;
+      }
 
       & li {
         -webkit-app-region: no-drag;
