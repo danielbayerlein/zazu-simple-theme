@@ -45,7 +45,7 @@ body {
   cursor: move;
   max-height: 350px;
   padding: 15px;
-  width: 640px
+  width: 600px
 }
 #zazu input {
   -webkit-app-region: no-drag;
