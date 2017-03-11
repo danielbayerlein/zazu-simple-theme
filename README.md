@@ -2,6 +2,8 @@
 
 > A crystal theme for [Zazu](https://github.com/tinytacoteam/zazu)
 
+![screenshot](./screenshot.png)
+
 ## Install
 
 Add `danielbayerlein/zazu-crystal-theme` as value to `theme` inside of your `~/.zazurc.json` file.
