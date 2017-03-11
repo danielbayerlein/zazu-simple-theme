@@ -15,8 +15,6 @@ body.playbook {
   }
 
   & #install {
-    width: 565px;
-
     & h2,
     & p {
       font-family: var(--fontFamily);
@@ -47,12 +45,9 @@ body {
 #zazu {
   -webkit-app-region: drag;
   background-color: rgba(238, 239, 240, 0.95);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.1);
   cursor: move;
+  max-height: 400px;
   padding: 15px;
-  width: 600px;
 
   & input {
     -webkit-app-region: no-drag;
@@ -74,11 +69,13 @@ body {
   & div.results {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 
     & ul {
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
       list-style-type: none;
       margin: 0;
-      max-height: 350px;
+      max-height: 301px;
       overflow: hidden;
       padding: 0;
       width: 50%;
@@ -89,19 +86,11 @@ body {
 
       & li {
         -webkit-app-region: no-drag;
-        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         cursor: pointer;
         height: 60px;
         padding: 5px;
         width: 100%;
-
-        &:first-child {
-          margin-top: 15px;
-        }
-
-        &:last-child {
-          border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-        }
 
         & .icon {
           float: left;
