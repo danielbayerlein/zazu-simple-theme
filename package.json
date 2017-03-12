@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple theme for Zazu",
   "main": "dist/main.css",
+  "private": true,
   "scripts": {
     "build": "postcss src/main.css --use postcss-cssnext --dir dist --map",
     "watch": "npm run build -- --watch",
