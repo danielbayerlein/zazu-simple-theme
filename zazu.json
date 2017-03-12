@@ -1,6 +1,6 @@
 {
-  "name": "zazu-crystal-theme",
+  "name": "zazu-simple-theme",
   "version": "1.0.0",
-  "description": "A crystal theme for Zazu",
+  "description": "A simple theme for Zazu",
   "stylesheet": "dist/main.css"
 }

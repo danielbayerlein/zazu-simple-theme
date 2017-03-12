@@ -1,16 +1,17 @@
-# zazu-crystal-theme
+# zazu-simple-theme
 
-> A crystal theme for [Zazu](https://github.com/tinytacoteam/zazu)
+> A simple theme for [Zazu](https://github.com/tinytacoteam/zazu).
+> Inspired by [alfred-simple](https://github.com/sindresorhus/alfred-simple).
 
 ![screenshot](./screenshot.png)
 
 ## Install
 
-Add `danielbayerlein/zazu-crystal-theme` as value to `theme` inside of your `~/.zazurc.json` file.
+Add `danielbayerlein/zazu-simple-theme` as value to `theme` inside of your `~/.zazurc.json` file.
 
 ```json
 {
-  "theme": "danielbayerlein/zazu-crystal-theme"
+  "theme": "danielbayerlein/zazu-simple-theme"
 }
 ```
 
