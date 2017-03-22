@@ -27,7 +27,7 @@
   "homepage": "https://github.com/danielbayerlein/zazu-simple-theme#readme",
   "devDependencies": {
     "husky": "^0.13.2",
-    "postcss-cli": "^3.0.0-beta",
+    "postcss-cli": "^3.0.0",
     "postcss-cssnext": "^2.9.0",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0"
