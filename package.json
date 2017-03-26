@@ -8,8 +8,8 @@
     "build": "postcss src/main.css --use postcss-cssnext --dir dist --map",
     "watch": "npm run build -- --watch",
     "lint": "stylelint src/main.css",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepush": "npm run lint"
+    "test": "npm run lint",
+    "prepush": "npm test"
   },
   "repository": {
     "type": "git",
