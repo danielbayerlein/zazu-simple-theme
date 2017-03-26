@@ -3,6 +3,10 @@
 > A simple theme for [Zazu](https://github.com/tinytacoteam/zazu).
 > Inspired by [alfred-simple](https://github.com/sindresorhus/alfred-simple).
 
+[![Build Status](https://travis-ci.org/danielbayerlein/zazu-simple-theme.svg?branch=master)](https://travis-ci.org/danielbayerlein/zazu-simple-theme)
+
+## Preview
+
 ![screenshot](./screenshot.png)
 
 ## Install
