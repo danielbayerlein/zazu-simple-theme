@@ -4,6 +4,7 @@
 > Inspired by [alfred-simple](https://github.com/sindresorhus/alfred-simple).
 
 [![Build Status](https://travis-ci.org/danielbayerlein/zazu-simple-theme.svg?branch=master)](https://travis-ci.org/danielbayerlein/zazu-simple-theme)
+[![Greenkeeper badge](https://badges.greenkeeper.io/danielbayerlein/zazu-simple-theme.svg)](https://greenkeeper.io/)
 
 ## Preview
 
