@@ -2296,9 +2296,9 @@ stylelint-config-standard@^16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-16.0.0.tgz#bb7387bff1d7dd7186a52b3ebf885b2405d691bf"
 
-stylelint@^7.11.0:
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.11.0.tgz#4816372ecd0afd2c30fe53f4f6a00eb04960dbfc"
+stylelint@^7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.11.1.tgz#c816c658baf7d9e5d167d82273fead37c97ae49d"
   dependencies:
     autoprefixer "^6.0.0"
     balanced-match "^0.4.0"
