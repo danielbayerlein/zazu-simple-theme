@@ -2,13 +2,9 @@
  * Styling for Zazu Theme Playbook
  * https://github.com/tinytacoteam/zazu-theme-playbook
  */
-body.playbook {
-}
 body.playbook .github-corner > svg {
   color: #fff;
   fill: #24292e;
-}
-body.playbook #install {
 }
 body.playbook #install h2,
     body.playbook #install p {
@@ -19,7 +15,8 @@ body.playbook #install h2,
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -52,7 +49,9 @@ body {
   font-weight: 300;
   outline: none;
   padding: 0;
-  width: 100%;/* Hide "Search..." placeholder */
+  width: 100%;/*
+ Hide "Search..." placeholder
+ */
 }
 #zazu input::-webkit-input-placeholder {
   color: transparent;
