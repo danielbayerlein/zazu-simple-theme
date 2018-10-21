@@ -2898,10 +2898,10 @@ postcss-calc@^6.0.0:
     postcss-selector-parser "^2.2.2"
     reduce-css-calc "^2.0.0"
 
-postcss-cli@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-6.0.0.tgz#688e3750735a7bc21ea6e2f0e427f5f873c16f0b"
-  integrity sha512-7DuxMn1Wj6dJKbjKpZXOdAc5nl5NfPXiJbg0m/+tdObPvgk1xv4+lZgNKD3jL/kCrDRPf1jgFlmq1cHh8lBR2w==
+postcss-cli@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-6.0.1.tgz#24c990f9313c7b21b2c4b2301c8f21591240c23f"
+  integrity sha512-M9GiEMzXVMlI4ln8e+mdeHT+qvoHVZdlN06hj5/EhrRZWDr+J1sniPeGJ4nghknl+du3Oj2UoqqhgpKKhiZ9+w==
   dependencies:
     chalk "^2.1.0"
     chokidar "^2.0.0"
@@ -2911,7 +2911,7 @@ postcss-cli@^6.0.0:
     globby "^8.0.0"
     postcss "^7.0.0"
     postcss-load-config "^2.0.0"
-    postcss-reporter "^5.0.0"
+    postcss-reporter "^6.0.0"
     pretty-hrtime "^1.0.3"
     read-cache "^1.0.0"
     yargs "^12.0.1"
@@ -3164,16 +3164,6 @@ postcss-replace-overflow-wrap@^2.0.0:
   dependencies:
     postcss "^6.0.1"
 
-postcss-reporter@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-reporter/-/postcss-reporter-5.0.0.tgz#a14177fd1342829d291653f2786efd67110332c3"
-  integrity sha512-rBkDbaHAu5uywbCR2XE8a25tats3xSOsGNx6mppK6Q9kSFGKc/FyAzfci+fWM2l+K402p1D0pNcfDGxeje5IKg==
-  dependencies:
-    chalk "^2.0.1"
-    lodash "^4.17.4"
-    log-symbols "^2.0.0"
-    postcss "^6.0.8"
-
 postcss-reporter@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-reporter/-/postcss-reporter-6.0.0.tgz#44c873129d8c029a430b6d2186210d79c8de88b8"
@@ -3305,15 +3295,6 @@ postcss@^6.0.16:
     chalk "^2.3.1"
     source-map "^0.6.1"
     supports-color "^5.2.0"
-
-postcss@^6.0.8:
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.10.tgz#c311b89734483d87a91a56dc9e53f15f4e6e84e4"
-  integrity sha512-7WOpqea/cQHH1XUXdN1mqoFFmhigW3KAXJ+ssMOk/f6mKmwqFgqqdwsnjLGH+wuY+kwaJvT4whHcfKt5kWga0A==
-  dependencies:
-    chalk "^2.1.0"
-    source-map "^0.5.7"
-    supports-color "^4.2.1"
 
 postcss@^7.0.0, postcss@^7.0.2:
   version "7.0.2"
@@ -3823,7 +3804,7 @@ source-map-url@^0.4.0:
   resolved "https://registry.yarnpkg.com/source-map-url/-/source-map-url-0.4.0.tgz#3e935d7ddd73631b97659956d55128e87b5084a3"
   integrity sha1-PpNdfd1zYxuXZZlW1VEo6HtQhKM=
 
-source-map@^0.5.0, source-map@^0.5.7:
+source-map@^0.5.0:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
@@ -4082,13 +4063,6 @@ supports-color@^4.0.0, supports-color@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.1.0.tgz#92cc14bb3dad8928ca5656c33e19a19f20af5c7a"
   integrity sha1-kswUuz2tiSjKVlbDPhmhnyCvXHo=
-  dependencies:
-    has-flag "^2.0.0"
-
-supports-color@^4.2.1:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.4.0.tgz#883f7ddabc165142b2a61427f3352ded195d1a3e"
-  integrity sha512-rKC3+DyXWgK0ZLKwmRsrkyHVZAjNkfzeehuFWdGGcqGDTZFH73+RH6S/RDAAxl9GusSjZSUWYLmT9N5pzXFOXQ==
   dependencies:
     has-flag "^2.0.0"
 
